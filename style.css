@@ -36,25 +36,23 @@ body {
     background: var(--cor-fundo);
 }
 
-
 .container {
-    width: 375px;
-    height: 500px;
+    width: calc(100% - 95rem); 
     display: flex;
     align-items: flex-start;
     flex-direction: column;
     border: solid 1px;
     background-color: var(--cor-fundo-secundaria);
     border-radius: 10px;
-    padding: 20px;
-    margin: 10px auto;
+    padding: calc(10% - 10rem);
+    margin: 7rem auto;
     box-shadow: 8px 8px 4px black;
 }
 
 .imagem {
     border: solid 0px;
     border-radius: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 0.5rem;
 }
 
 .categoria {
@@ -77,7 +75,7 @@ h6 {
 h1 {
     white-space: nowrap;
     font-size: 22px;
-    margin-bottom: 20px;
+    margin-bottom: 1rem;
     font-weight: 800;
     color: var(--cor-secundaria);
 }
@@ -86,13 +84,13 @@ h1 {
     font-weight: 500;
     font-size: medium;
     color: var(--cor-primaria);
-    margin-bottom: 20px;
+    margin-bottom: 1rem;
 }
 
 .autor {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 0.5rem;
 }
 
 .autor p {
